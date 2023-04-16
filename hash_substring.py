@@ -20,7 +20,7 @@ def read_input():
         # input from keyboard
         return (input().rstrip(), input().rstrip())
     else:
-        with open('tests/06.txt', "r") as fails:
+        with open('tests/06', "r") as fails:
         #     n = int(fails.readline())
         #     data = list(map(int, fails.readline().split()))
             return (fails.readline().rstrip(),fails.readline().rstrip())
